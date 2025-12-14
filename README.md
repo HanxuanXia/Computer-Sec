@@ -167,34 +167,4 @@ ini_set('session.use_strict_mode', 1);
 
 ---
 
-## 📝 Recent Fixes (Dec 2025)
-
-### QR Code Generation Fixed
-- ✅ Recreated `generate_qr.php` for local QR generation
-- ✅ Fixed missing `secret` parameter in `verify_2fa.php`
-- ✅ Updated `includes/2fa.php` to use local generator
-
-### Registration Flow Fixed
-- ✅ Removed HTML comment from `verify_registration_code.php`
-- ✅ Fixed session handling in `register.php`
-- ✅ Added proper redirect with `exit;`
-
----
-
-## 👤 Author
-
-**Hanxuan Xia**  
-University of Sussex  
-Computer Security Course  
-
-GitHub: [@HanxuanXia](https://github.com/HanxuanXia)
-
----
-
-## 📄 License
-
-Educational project for Computer Security course.
-
----
-
 **Last Updated**: December 14, 2025
