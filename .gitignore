@@ -1,0 +1,54 @@
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Environment & Config (contains sensitive data)
+# Uncomment these if you don't want to share sensitive configs
+# config/database.php
+# config/security_config.php
+
+# Uploaded files
+uploads/*
+!uploads/index.php
+!uploads/*.jpg
+!uploads/*.png
+
+# Cache & Temp files
+phpqrcode/cache/*
+phpqrcode/temp/*
+*.tmp
+*.cache
+
+# Logs
+*.log
+error_log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files (optional - comment out if you want to include them)
+test_*.php
+show_current_2fa_code.php
+simple_recaptcha_test.php
+debug_*.php
+diagnose_*.php
+
+# Backup files
+*.bak
+*.backup
+*_backup.php
