@@ -136,19 +136,6 @@ ini_set('session.use_strict_mode', 1);
 
 ---
 
-## 🧪 Test Accounts
-
-**Admin:**
-- Email: `admin@lovejoy.com`
-- Password: `Admin123456!`
-- 2FA: Enabled
-
-**Customer:**
-- Email: `customer@lovejoy.com`
-- Password: `Customer123456!`
-
----
-
 ## 🛡️ Security Checklist
 
 - [x] Input validation on all forms
